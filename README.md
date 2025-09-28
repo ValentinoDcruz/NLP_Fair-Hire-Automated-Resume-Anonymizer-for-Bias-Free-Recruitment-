@@ -1,6 +1,5 @@
 # FairHire: Automated Resume Anonymizer for Bias-Free Recruitment
 
-![App Screenshot](logo.png)
 
 ## Overview
 
@@ -22,46 +21,6 @@ Built with **Python** and leveraging state-of-the-art NLP (spaCy), regex PII det
 
 ---
 
-## Demo
 
-![Demo Screenshot](demo_image.png)
 
----
-
-## Getting Started
-
-### Requirements
-
-- Python 3.8+
-- pip
-- [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) (for scanned resumes/images)
-
-### Installation
-
-1. **Clone the repository:**
-    ```
-    git clone https://github.com/yourusername/resume-anonymizer.git
-    cd resume-anonymizer
-    ```
-
-2. **Install dependencies:**
-    ```
-    pip install -r requirements.txt
-    ```
-
-3. **Install Tesseract OCR:**
-
-    - **Windows:** [Download Installer](https://github.com/tesseract-ocr/tesseract/wiki)
-    - **Ubuntu:** `sudo apt-get install tesseract-ocr`
-
-4. **(Optional) Download spaCy model:**
-    ```
-    python -m spacy download en_core_web_sm
-    ```
-
----
-
-## Usage
-
-### Streamlit Web App
 
